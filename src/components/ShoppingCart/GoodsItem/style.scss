@@ -1,0 +1,26 @@
+.cart-item-wrapper {
+  padding: 0.5em 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.cart-item__img {
+  width: 71px;
+  height: 71px;
+  padding-right: 1em;
+}
+
+.cart-item__desc {
+  padding: 0;
+
+  :nth-child(2) {
+    color: #909ea8;
+  }
+
+  :last-child {
+    padding-top: 0.7em;
+    color: #7d8d99;
+    font-weight: 700;
+  }
+}

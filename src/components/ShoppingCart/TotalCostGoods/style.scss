@@ -1,0 +1,24 @@
+.cart-total-wrapper{
+  border-top: 1px solid #e8edf1;
+
+  :nth-child(4) {
+    border-top: 1px solid #e8edf1;
+    font-size: 1.2em;
+  }
+}
+
+.cart-total {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  p {
+    margin: 0.5em 0;
+    font-size: 0.9em;
+  }
+
+  :last-child {
+    font-weight: 700;
+  }
+}
+

@@ -1,0 +1,21 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+html,
+body, #root {
+  height: 100%;
+  font-family: Helvetica, sans-serif;
+}
+
+.cart-wrapper {
+  height: 100%;
+  display: flex;
+}
+
+.cart-account-wrapper {
+  flex-basis: 70%;
+  display: flex;
+  flex-direction: column;
+}

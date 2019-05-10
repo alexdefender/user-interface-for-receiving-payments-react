@@ -1,0 +1,31 @@
+.cart-nav-wrapper {
+  flex-basis: 10%;
+  margin-top: 2em;
+}
+
+.cart-nav-items {
+  list-style-type: none;
+  padding: 0;
+}
+
+.cart-nav__item {
+  display: inline;
+  padding: 1em;
+  border-bottom: 2px solid #747a7e;
+
+  a {
+    text-decoration: none;
+    color: #1f2529;
+    cursor: pointer;
+  }
+}
+
+.no-active {
+  border-bottom: 2px solid #f2f5f7;
+
+  a {
+    text-decoration: none;
+    color: #d8dce0;
+    cursor: pointer;
+  }
+}
