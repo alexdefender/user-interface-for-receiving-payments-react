@@ -1,7 +1,7 @@
 import React from "react";
 import "./style.scss";
-import { GoodsItems  } from "./GoodsItems";
-import { TotalCostGoods } from "./TotalCostGoods";
+import { GoodsItems  } from "../GoodsItems";
+import { TotalCostGoods } from "../TotalCostGoods";
 
 function ShoppingCart() {
   return (

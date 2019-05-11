@@ -1,6 +1,6 @@
 import React from "react";
 import "./style.scss";
-import  item_001  from "../../../img/item-001.jpg";
+import item_001 from "../../img/item-001.jpg";
 
 const GoodsItem = () => (
   <div className="cart-item-wrapper">

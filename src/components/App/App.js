@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import "./style.scss";
 import { HashRouter as Router, Route } from "react-router-dom";
 import { ShoppingCart } from "../ShoppingCart";
-import { AccountCart } from "../AccountCart";
+import { AccountsCart } from "../AccountsCart";
 import { NavCart } from "../NavCart";
 import { PaymentSelection } from "../PaymentSelection";
 
@@ -11,12 +11,13 @@ class App extends Component {
     return (
       <Router>
         <form className="cart-wrapper" method="POST">
-          <div className="cart-account-wrapper">
+          <div className="cart-accounts-wrapper">
             <NavCart />
-            <Route exact path="/" component={AccountCart} />
+            <Route exact path="/" component={AccountsCart} />
             <Route path="/payment" component={PaymentSelection} />
           </div>
           <ShoppingCart />
+          {/*<AddAccountCart />*/}
         </form>
       </Router>
     );

@@ -1,0 +1,30 @@
+.payment-selection__title {
+  margin-top: 3em;
+}
+
+.payment-items {
+  margin-right: 6em;
+  display: flex;
+  flex-direction: column;
+}
+
+.payment-item {
+  background-color: #f8fafb;
+  width: 100%;
+  padding: 1em;
+  margin: 1em 2em;
+
+  > label {
+    > img {
+      margin-left: 2em;
+      height: 1.5em;
+    }
+
+    > span {
+      color: #5194e3;
+      font-size: 1.5em;
+      font-weight: 700;
+      margin-left: 1.4em;
+    }
+  }
+}

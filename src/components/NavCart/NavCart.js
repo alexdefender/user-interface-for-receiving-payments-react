@@ -9,7 +9,7 @@ const NavCart = () => (
         <li className="cart-nav__item">
           <Link to="/">01 CUSTOMER ACCOUNT</Link>
         </li>
-        <li className="cart-nav__item no-active">
+        <li className="cart-nav__item no-active" >
           <Link to="/payment">02 PAYMENT SELECTION</Link>
         </li>
       </ul>
