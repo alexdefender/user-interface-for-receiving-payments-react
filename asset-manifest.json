@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/user-interface-for-receiving-payments-react/static/css/main.faa81318.chunk.css",
+    "main.js": "/user-interface-for-receiving-payments-react/static/js/main.7b7b29b1.chunk.js",
+    "main.js.map": "/user-interface-for-receiving-payments-react/static/js/main.7b7b29b1.chunk.js.map",
+    "runtime~main.js": "/user-interface-for-receiving-payments-react/static/js/runtime~main.2e668586.js",
+    "runtime~main.js.map": "/user-interface-for-receiving-payments-react/static/js/runtime~main.2e668586.js.map",
+    "static/js/2.213308ea.chunk.js": "/user-interface-for-receiving-payments-react/static/js/2.213308ea.chunk.js",
+    "static/js/2.213308ea.chunk.js.map": "/user-interface-for-receiving-payments-react/static/js/2.213308ea.chunk.js.map",
+    "index.html": "/user-interface-for-receiving-payments-react/index.html",
+    "precache-manifest.291c524579b229c5329d8b095a07b7c7.js": "/user-interface-for-receiving-payments-react/precache-manifest.291c524579b229c5329d8b095a07b7c7.js",
+    "service-worker.js": "/user-interface-for-receiving-payments-react/service-worker.js",
+    "static/css/main.faa81318.chunk.css.map": "/user-interface-for-receiving-payments-react/static/css/main.faa81318.chunk.css.map",
+    "static/media/paypal-logo.png": "/user-interface-for-receiving-payments-react/static/media/paypal-logo.f61b3e81.png",
+    "static/media/visa-and-mastercard-logos.png": "/user-interface-for-receiving-payments-react/static/media/visa-and-mastercard-logos.2b109fdf.png"
+  }
+}
