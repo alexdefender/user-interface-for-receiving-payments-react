@@ -1,9 +1,9 @@
 import React from "react";
 import "./style.scss";
-import { GoodsItems  } from "../GoodsItems";
+import { GoodsItems } from "../GoodsItems";
 import { TotalCostGoods } from "../TotalCostGoods";
 
-function ShoppingCart() {
+const ShoppingCart = () => {
   return (
     <div className="cart-shopping">
       <div className="cart-shopping__title-wrapper">

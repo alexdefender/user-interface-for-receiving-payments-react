@@ -1,5 +1,6 @@
 .cart-accounts__title {
   margin-top: 3em;
+  margin-left: 1em;
 }
 
 .cart-accounts {
@@ -16,6 +17,37 @@
   border: 1px solid #aeb4ba;
   background-color: #4a90e2;
   color: white;
-  box-shadow: 0px 9px 10px 0px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 9px 10px 0 rgba(0, 0, 0, 0.3);
   cursor: pointer;
+}
+
+.cart-accounts-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 5em;
+
+  a {
+    text-decoration: none;
+  }
+}
+
+.cart-accounts__back {
+  margin-left: 1em;
+  > a {
+    color: #98a5ae;
+  }
+}
+
+.cart-accounts__next {
+  border: 1px solid #425163;
+  border-radius: 3px;
+  background-color: #4a90e2;
+  padding: 1.5em 3em;
+  margin-right: 2em;
+
+  > a {
+    color: white;
+    font-weight: 600;
+  }
 }

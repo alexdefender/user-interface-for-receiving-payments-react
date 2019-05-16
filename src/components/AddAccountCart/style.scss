@@ -12,7 +12,7 @@
   height: 29em;
   border: 1px solid #858585;
   border-radius: 3px;
-  box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.5);
   background-color: white;
   color: #949494;
 
@@ -35,8 +35,7 @@
   }
 }
 
-.add-cart-account-input,
-add-payment-wrapper {
+.add-cart-account-input {
   position: relative;
   display: inline-block;
   margin: 0.5em 0;
@@ -73,11 +72,11 @@ add-payment-wrapper {
 }
 
 .add-account-input-date {
-  width: 8em;
+  width: 6em;
 }
 
 .add-account-input-code {
-  width: 4em;
+  width: 6em;
 }
 
 .add-account-data,
@@ -96,4 +95,8 @@ add-payment-wrapper {
     color: #5e9ce5;
     cursor: pointer;
   }
+}
+
+.add-account-error {
+  color: red;
 }

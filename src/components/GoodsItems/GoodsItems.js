@@ -5,8 +5,6 @@ import { GoodsItem } from "../GoodsItem";
 const GoodsItems = () => (
   <div className="cart-items">
     <GoodsItem />
-    <GoodsItem />
-    <GoodsItem />
   </div>
 );
 

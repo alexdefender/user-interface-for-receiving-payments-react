@@ -1,6 +1,7 @@
 import React, { Component } from "react";
-import "./style.scss";
 import { HashRouter as Router, Route } from "react-router-dom";
+import { connect } from "react-redux";
+import "./style.scss";
 import { ShoppingCart } from "../ShoppingCart";
 import { AccountsCart } from "../AccountsCart";
 import { NavCart } from "../NavCart";
@@ -10,18 +11,19 @@ class App extends Component {
   render() {
     return (
       <Router>
-        <form className="cart-wrapper" method="POST">
+        <div className="cart-wrapper">
           <div className="cart-accounts-wrapper">
             <NavCart />
             <Route exact path="/" component={AccountsCart} />
             <Route path="/payment" component={PaymentSelection} />
           </div>
           <ShoppingCart />
-          {/*<AddAccountCart />*/}
-        </form>
+        </div>
       </Router>
     );
   }
 }
 
-export default App;
+export default connect(state => ({
+  appState: state
+}))(App);

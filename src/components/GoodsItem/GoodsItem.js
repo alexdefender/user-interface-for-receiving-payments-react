@@ -1,16 +1,24 @@
 import React from "react";
 import "./style.scss";
-import item_001 from "../../img/item-001.jpg";
+import { connect } from "react-redux";
 
-const GoodsItem = () => (
-  <div className="cart-item-wrapper">
-    <img className="cart-item__img" src={item_001} />
-    <div className="cart-item__desc">
-      <p>Glith</p>
-      <p>Christian Louboutin</p>
-      <p>$ 200.00</p>
-    </div>
-  </div>
-);
+const GoodsItem = props => {
+  return props.appState.goodsItems.map((item, i) => {
+    const { img, collection, brand, price } = item;
 
-export default GoodsItem;
+    return (
+      <div key={i} className="cart-item-wrapper">
+        <img className="cart-item__img" src={img} />
+        <div className="cart-item__desc">
+          <p>{collection}</p>
+          <p>{brand}</p>
+          <p>$ {price}</p>
+        </div>
+      </div>
+    );
+  });
+};
+
+export default connect(state => ({
+  appState: state
+}))(GoodsItem);
