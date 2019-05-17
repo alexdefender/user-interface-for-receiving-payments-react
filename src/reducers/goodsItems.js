@@ -16,6 +16,8 @@ const initialState = [
   }
 ];
 
-export default function goodsItems(state = initialState, action) {
+const goodsItems = (state = initialState, action) => {
   return state;
-}
+};
+
+export default goodsItems;

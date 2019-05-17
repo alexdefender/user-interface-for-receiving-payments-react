@@ -13,7 +13,7 @@ const initialState = {
   vat: 0,
   totalPrice: 0
 };
-export default function totalCostGoods(state = initialState, action) {
+const totalCostGoods = (state = initialState, action) => {
   if (action.type === SUBTOTAL) {
     state.price = action.payload;
   } else if (PAYMENTS.includes(action.type)) {
@@ -29,4 +29,6 @@ export default function totalCostGoods(state = initialState, action) {
   }
 
   return state;
-}
+};
+
+export default totalCostGoods;

@@ -13,7 +13,7 @@ const initialState = [
   }
 ];
 
-export default function accounts(state = initialState, action) {
+const accounts = (state = initialState, action) => {
   if (action.type === ADD_ACCOUNT) {
     const doubleAccount = state.filter(
       account => account.id === action.payload.id
@@ -35,4 +35,6 @@ export default function accounts(state = initialState, action) {
   }
 
   return state;
-}
+};
+
+export default accounts;

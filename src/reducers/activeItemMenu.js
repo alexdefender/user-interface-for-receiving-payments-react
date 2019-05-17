@@ -5,7 +5,7 @@ const initialState = {
   paymentsMenu: false
 };
 
-export default function activeItemMenu(state = initialState, action) {
+const activeItemMenu = (state = initialState, action) => {
   if (action.type === MENU_ALL) {
     const newState = Object.assign({}, state);
     for (let key in newState) {
@@ -23,4 +23,6 @@ export default function activeItemMenu(state = initialState, action) {
   }
 
   return state;
-}
+};
+
+export default activeItemMenu;
