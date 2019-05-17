@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "5b09967df3ed70c762d42c28ef393535",
+    "revision": "919a4f4259fe24a1e56420caff3c6e35",
     "url": "/user-interface-for-receiving-payments-react/index.html"
   },
   {
-    "revision": "e2aa7c7d22667587c186",
+    "revision": "51ba7e870959230a47fb",
     "url": "/user-interface-for-receiving-payments-react/static/css/main.faa81318.chunk.css"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/user-interface-for-receiving-payments-react/static/js/2.213308ea.chunk.js"
   },
   {
-    "revision": "e2aa7c7d22667587c186",
-    "url": "/user-interface-for-receiving-payments-react/static/js/main.7b7b29b1.chunk.js"
+    "revision": "51ba7e870959230a47fb",
+    "url": "/user-interface-for-receiving-payments-react/static/js/main.0bb4ef5f.chunk.js"
   },
   {
     "revision": "542c65cd8e0f6d648a24",
